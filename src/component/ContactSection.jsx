@@ -90,16 +90,19 @@ const ContactSection = () => {
             <div className="pt-8">
               <h4 className="text-sm font-semibold mb-4">Connect Me With</h4>
               <div className="space-x-4 flex justify-center">
-                <a href="" className="">
+                <a
+                  href="https://www.linkedin.com/in/emmanuel-a-9692b52b1?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+                  target="_blank"
+                >
                   <Linkedin
                     size={20}
                     className="hover:tex-primary transition-colors"
                   />
                 </a>
-                <a href="" className="">
+                <a href="" target="_blank">
                   <Instagram size={20} />
                 </a>
-                <a href="" className="">
+                <a href="" target="_blank">
                   <Twitter
                     size={20}
                     className="hover:tex-primary transition-colors"
